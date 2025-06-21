@@ -1,8 +1,8 @@
 import streamlit as st
 from supabase import create_client
-from app.utils.router import process_instruction
-from app.utils.auth import signup, login
-from app.utils.stripe import create_checkout_session
+from utils.router import process_instruction
+from utils.auth import signup, login
+from utils.stripe import create_checkout_session
 import stripe
 import io
 from datetime import datetime
